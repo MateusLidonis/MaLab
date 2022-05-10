@@ -62,7 +62,8 @@ void setup()
 void loop()
 {
  //Váriavel para armazenar o valor capturado pelo sensor de temperatura interno
- //-16.57 é um valor Hard Coded para diminuir a temperatura registrada pois o sensor interno marca aproximadamente 50ºC 
+ //-16.57 é um valor Hard Coded para diminuir a temperatura registrada pois o sensor interno marca aproximadamente 50ºC
+ //E eu não possuo sensor externo, esse valor Hard Coded DEVE ser retirado caso utilize sensor externo 
  float temp = (temprature_sens_read() - 32) / 1.8 - 16.57;
 
  //Váriavel para controle do botão 
