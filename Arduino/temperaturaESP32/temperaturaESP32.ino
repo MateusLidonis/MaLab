@@ -22,8 +22,8 @@ uint8_t temprature_sens_read();
 #include <WiFi.h>
 
 //Credenciais da minha rede WiFi
-const char* ssid = "Lidonis-2G";
-const char* password = "Mateus_101";
+const char* ssid = "Nome_Da_Rede";
+const char* password = "*******";
 const char* host = "192.168.0.10";
 
 //Inicio o Setup
